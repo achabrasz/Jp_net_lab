@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(TargetFramework)' == '' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.core/2.9.3/buildMultiTargeting/xunit.core.targets" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.9.3/buildMultiTargeting/xunit.core.targets')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net9.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xunit.core/2.9.3/build/xunit.core.targets" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.9.3/build/xunit.core.targets')" />
+  </ImportGroup>
+</Project>
