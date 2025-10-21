@@ -305,11 +305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Adam/Studia/Jp_net_lab/Lab3tmp/Lab3/Lab3.csproj",
+      "projectUniqueName": "/Users/Adam/Studia/Jp_net_lab/Lab3/Lab3/Lab3.csproj",
       "projectName": "Lab3",
-      "projectPath": "/Users/Adam/Studia/Jp_net_lab/Lab3tmp/Lab3/Lab3.csproj",
+      "projectPath": "/Users/Adam/Studia/Jp_net_lab/Lab3/Lab3/Lab3.csproj",
       "packagesPath": "/Users/Adam/.nuget/packages/",
-      "outputPath": "/Users/Adam/Studia/Jp_net_lab/Lab3tmp/Lab3/obj/",
+      "outputPath": "/Users/Adam/Studia/Jp_net_lab/Lab3/Lab3/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -319,6 +319,7 @@
         "net9.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -368,7 +369,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/Adam/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,19 +1,24 @@
+using Autofac;
+
 namespace Lab3;
 
 public class TransactionProcessor
 {
-    private readonly StepOneService _stepOne;
-    private readonly StepTwoService _stepTwo;
+    private readonly ILifetimeScope _scope;
 
-    public TransactionProcessor(StepOneService stepOne, StepTwoService stepTwo)
+    public TransactionProcessor(ILifetimeScope scope)
     {
-        _stepOne = stepOne;
-        _stepTwo = stepTwo;
+        _scope = scope;
     }
 
     public void Process()
     {
-        _stepOne.Execute();
-        _stepTwo.Execute();
+        using (var transactionScope = _scope.BeginLifetimeScope("transaction"))
+        {
+            var stepOne = transactionScope.Resolve<StepOneService>();
+            var stepTwo = transactionScope.Resolve<StepTwoService>();
+            stepOne.Execute();
+            stepTwo.Execute();
+        }
     }
 }

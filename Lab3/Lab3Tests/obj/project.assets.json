@@ -1052,11 +1052,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Adam/Studia/Jp_net_lab/Lab3tmp/Lab3Tests/Lab3Tests.csproj",
+      "projectUniqueName": "/Users/Adam/Studia/Jp_net_lab/Lab3/Lab3Tests/Lab3Tests.csproj",
       "projectName": "Lab3Tests",
-      "projectPath": "/Users/Adam/Studia/Jp_net_lab/Lab3tmp/Lab3Tests/Lab3Tests.csproj",
+      "projectPath": "/Users/Adam/Studia/Jp_net_lab/Lab3/Lab3Tests/Lab3Tests.csproj",
       "packagesPath": "/Users/Adam/.nuget/packages/",
-      "outputPath": "/Users/Adam/Studia/Jp_net_lab/Lab3tmp/Lab3Tests/obj/",
+      "outputPath": "/Users/Adam/Studia/Jp_net_lab/Lab3/Lab3Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Adam/.nuget/NuGet/NuGet.Config"
@@ -1065,14 +1065,15 @@
         "net9.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/Adam/Studia/Jp_net_lab/Lab3tmp/Lab3/Lab3.csproj": {
-              "projectPath": "/Users/Adam/Studia/Jp_net_lab/Lab3tmp/Lab3/Lab3.csproj"
+            "/Users/Adam/Studia/Jp_net_lab/Lab3/Lab3/Lab3.csproj": {
+              "projectPath": "/Users/Adam/Studia/Jp_net_lab/Lab3/Lab3/Lab3.csproj"
             }
           }
         }
@@ -1126,7 +1127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/Adam/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

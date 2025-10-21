@@ -11,6 +11,6 @@ public class StepTwoService
 
     public void Execute()
     {
-        // Step two logic
+        Console.WriteLine($"Step 2: Processing in transaction {_context.TransactionId}");
     }
 }

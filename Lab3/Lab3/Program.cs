@@ -64,3 +64,17 @@ using (var scope2 = container.BeginLifetimeScope())
     Console.WriteLine($" -> ID instancji wewnątrz scope2: {uowFromScope2.Id}");
 }
 Console.WriteLine($" -> Czy instancja ze scope1 jest taka sama jak ze scope2? {uowFromScope1.Id == uowFromScope2.Id}");
+
+using (var transactionScope = container.BeginLifetimeScope("transaction"))
+{
+    Console.WriteLine(" -> Rozpoczęto nową transakcję...");
+// Rozwiązujemy zależności Z WNĘTRZA otagowanego zasięgu
+    var step1 = transactionScope.Resolve<StepOneService>();
+    var step2 = transactionScope.Resolve<StepTwoService>();
+    step1.Execute();
+    step2.Execute();
+    Console.WriteLine(" -> Transakcja zakończona.");
+}
+
+var transactionProcessor = container.Resolve<TransactionProcessor>();
+transactionProcessor.Process();

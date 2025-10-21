@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3vyZA+xIdPY=",
+  "dgSpecHash": "sReSLjBZhYk=",
   "success": true,
-  "projectFilePath": "/Users/Adam/Studia/Jp_net_lab/Lab3tmp/Lab3Tests/Lab3Tests.csproj",
+  "projectFilePath": "/Users/Adam/Studia/Jp_net_lab/Lab3/Lab3Tests/Lab3Tests.csproj",
   "expectedPackageFiles": [
     "/Users/Adam/.nuget/packages/autofac/8.4.0/autofac.8.4.0.nupkg.sha512",
     "/Users/Adam/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",
