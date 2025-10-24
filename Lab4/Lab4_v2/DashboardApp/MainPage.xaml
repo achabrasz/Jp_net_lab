@@ -1,0 +1,18 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DashboardApp.MainPage"
+             Title="Dynamic Dashboard">
+
+    <Grid RowDefinitions="Auto, *">
+        <!-- Row 0: control panel -->
+        <VerticalStackLayout Grid.Row="0">
+            <Entry x:Name="DataEntry" Placeholder="Wpisz dane..." />
+            <Button Text="Wyślij Dane" Clicked="SendData_Clicked" />
+        </VerticalStackLayout>
+
+        <!-- Row 1: widgets -->
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout x:Name="WidgetsContainer" />
+        </ScrollView>
+    </Grid>
+</ContentPage>

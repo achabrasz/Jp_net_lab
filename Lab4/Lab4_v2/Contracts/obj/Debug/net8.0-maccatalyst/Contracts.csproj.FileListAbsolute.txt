@@ -1,0 +1,8 @@
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net8.0-maccatalyst/actool/_PartialAppManifest.items
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net8.0-maccatalyst/actool/_BundleResourceWithLogicalName.items
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net8.0-maccatalyst/actool/_ProcessedImageAssetsPath.items
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net8.0-maccatalyst/coremlc/_PartialAppManifest.items
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net8.0-maccatalyst/coremlc/_BundleResourceWithLogicalName.items
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net8.0-maccatalyst/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net8.0-maccatalyst/_ProcessedBundleResourcesPath.items
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net8.0-maccatalyst/_ProcessedContentPath.items

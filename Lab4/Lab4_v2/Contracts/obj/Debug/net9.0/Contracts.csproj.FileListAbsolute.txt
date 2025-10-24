@@ -1,0 +1,13 @@
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/bin/Debug/net9.0/Contracts.deps.json
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/bin/Debug/net9.0/Contracts.dll
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/bin/Debug/net9.0/Contracts.pdb
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/Contracts.csproj.AssemblyReference.cache
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/Contracts.AssemblyInfoInputs.cache
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/Contracts.AssemblyInfo.cs
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/Contracts.csproj.CoreCompileInputs.cache
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/Contracts.sourcelink.json
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/Contracts.dll
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/refint/Contracts.dll
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/Contracts.pdb
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/Contracts/obj/Debug/net9.0/ref/Contracts.dll

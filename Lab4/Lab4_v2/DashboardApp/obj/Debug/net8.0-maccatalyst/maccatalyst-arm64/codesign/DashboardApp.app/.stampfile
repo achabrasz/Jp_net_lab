@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/DashboardApp/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/DashboardApp/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/DashboardApp.app
