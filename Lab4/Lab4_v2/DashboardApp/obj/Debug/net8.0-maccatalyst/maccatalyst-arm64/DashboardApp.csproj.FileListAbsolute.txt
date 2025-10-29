@@ -304,5 +304,5 @@
 /Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/DashboardApp/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/DashboardApp.pdb
 /Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/DashboardApp/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/DashboardApp.genruntimeconfig.cache
 /Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/DashboardApp/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ref/DashboardApp.dll
-/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/DashboardApp/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Widgets/ChartsWidget.dll
 /Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/DashboardApp/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Widgets/TextWidget.dll
+/Users/Adam/Studia/Jp_net_lab/Lab4/Lab4_v2/DashboardApp/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Widgets/ChartsWidget.dll

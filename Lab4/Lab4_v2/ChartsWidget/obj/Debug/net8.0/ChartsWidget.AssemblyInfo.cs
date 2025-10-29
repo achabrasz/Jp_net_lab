@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChartsWidget")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36fe455c7008fc92561fd07fe2751070b60afeca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b31ecba34ca4becdedb40870f3d4edd2e6d87560")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChartsWidget")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChartsWidget")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
-using System.IO;
 using Contracts;
 using Prism.Events;
+using Timer = System.Timers.Timer;
 
 namespace DashboardApp;
 
@@ -10,6 +10,9 @@ public partial class MainPage : ContentPage
 {
     private CompositionContainer _container;
     private IEventAggregator _eventAggregator;
+    private FileSystemWatcher _watcher;
+    private Timer _pollTimer;
+    private HashSet<string> _lastDlls = new();
 
     public MainPage()
     {
@@ -64,11 +67,10 @@ public partial class MainPage : ContentPage
             Console.WriteLine($"[ERROR] CopyWidgetsToAppData: {ex}");
         }
     }
-
-
     
     private void LoadWidgets()
     {
+        SetupMef();
         var widgets = _container.GetExports<IWidget>();
         MainThread.BeginInvokeOnMainThread(() =>
         {
@@ -81,13 +83,19 @@ public partial class MainPage : ContentPage
     private void WatchPluginsFolder()
     {
         var path = Path.Combine(FileSystem.Current.AppDataDirectory, "Widgets");
-        var watcher = new FileSystemWatcher(path, "*.dll");
+        _watcher = new FileSystemWatcher(path, "*.dll")
+        {
+            NotifyFilter = NotifyFilters.FileName | NotifyFilters.LastWrite
+        };
 
-        watcher.Created += (s, e) => MainThread.BeginInvokeOnMainThread(LoadWidgets);
-        watcher.Deleted += (s, e) => MainThread.BeginInvokeOnMainThread(LoadWidgets);
-        watcher.EnableRaisingEvents = true;
+        _watcher.Created += (s, e) => MainThread.BeginInvokeOnMainThread(LoadWidgets);
+        _watcher.Deleted += (s, e) => MainThread.BeginInvokeOnMainThread(LoadWidgets);
+        _watcher.Changed += (s, e) => MainThread.BeginInvokeOnMainThread(LoadWidgets);
+        _watcher.Renamed += (s, e) => MainThread.BeginInvokeOnMainThread(LoadWidgets);
+
+        _watcher.EnableRaisingEvents = true;
     }
-
+    
     private void SendData_Clicked(object sender, EventArgs e)
     {
         _eventAggregator.GetEvent<DataSubmittedEvent>().Publish(DataEntry.Text ?? "");

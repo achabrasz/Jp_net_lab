@@ -70,7 +70,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <!-- Copy widget DLLs into the app bundle -->
         <None Include="Widgets/**/*.dll" Pack="false" CopyToOutputDirectory="PreserveNewest" />
     </ItemGroup>
 
