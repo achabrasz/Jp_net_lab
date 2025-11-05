@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TeqiRNuVzZ4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adamc\\Studia\\Semestr 7\\Jp_net_lab\\Lab6_6\\Lab6_6\\Lab6_6.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adamc\\.nuget\\packages\\fsharp.core\\9.0.300\\fsharp.core.9.0.300.nupkg.sha512"
+  ],
+  "logs": []
+}

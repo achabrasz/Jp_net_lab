@@ -1,0 +1,52 @@
+﻿[
+  {
+    "Id": 1,
+    "DepositUSD": 50.0,
+    "JoinDate": "2023-10-10",
+    "Status": {
+      "Case": "Standard"
+    },
+    "FinesPLN": 0.0,
+    "Contact": {
+      "FirstName": "Jan",
+      "LastName": "Kowalski",
+      "BirthDate": "1990-02-01",
+      "LibraryCard": "LIB123",
+      "Email": "jan.kowalski@example.com",
+      "ContactInfo": {
+        "Case": "EmailOnly",
+        "Fields": ["jan.kowalski@example.com"]
+      }
+    }
+  },
+  {
+    "Id": 2,
+    "DepositUSD": 25.0,
+    "JoinDate": "2024-01-05",
+    "Status": {
+      "Case": "Standard"
+    },
+    "FinesPLN": 0.0,
+    "Contact": null
+  },
+  {
+    "Id": 3,
+    "DepositUSD": 60.0,
+    "JoinDate": "2022-07-21",
+    "Status": {
+      "Case": "Premium"
+    },
+    "FinesPLN": 0.0,
+    "Contact": {
+      "FirstName": "Anna",
+      "LastName": "Nowak",
+      "BirthDate": "1995-08-13",
+      "LibraryCard": "LIB456",
+      "Email": null,
+      "ContactInfo": {
+        "Case": "EmailAndPost",
+        "Fields": ["anna.nowak@example.com", "ul. Długa 5, Kraków"]
+      }
+    }
+  }
+]
